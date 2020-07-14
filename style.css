@@ -93,6 +93,8 @@ body{
 
 #contact input{
     width: 300px;
+    border: none;
+    border-bottom: 1px solid gray;
 }
 
 
