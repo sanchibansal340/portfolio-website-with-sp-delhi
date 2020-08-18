@@ -1,7 +1,6 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Lucida Sans', sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -137,7 +136,7 @@ h2{
 #footer a {
     text-decoration: none;
     margin: 70px 20px 50px;
-    padding: 10px 15px;
+    padding: 10px 20px;
     font-size: 20px;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
 }
