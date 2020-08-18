@@ -1,122 +1,146 @@
 *{
     padding: 0;
     margin: 0;
-}
-
-body{
     font-family: 'Lucida Sans', sans-serif;
     scroll-behavior: smooth;
 }
 
 .header{
-    padding-bottom: 100px;
+    position: fixed;
+    width: 100%;
+    margin-bottom: 50px;
+    z-index: 10;
+    background-color: rgb(139, 128, 240);
 }
 
 .header ul{
     text-align: center;
-    margin-left: 100px;
 }
 
 .header li{
-    padding: 20px;
-    margin: 10px;
+    margin: 20px;
     list-style: none;
     float: left;
 }
 
 .header a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .header a:hover{
-    color: gray;  
+    border-bottom: 2px solid white;
 }
 
 
-/*Home*/
-#home{
-    width: 80%;
-    text-align: center;
-    margin: 80px auto;
-}
 
-.home-row{
+/*About*/
+.main{
+    position: relative;
+    top: 120px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.home-left-col, .home-right-col{
-    flex-basis: 50%;
+h2{
+    padding-bottom: 30px;
 }
 
-.home-left-col img{
+.main img{
     width: 300px;
-    height: 400px;
+    height: 350px;
+    border-radius: 100%;
 }
 
-.home-right-col h1{
+.right {
+    width: 500px;
+}
+
+.right h2{
+    text-align: center;
     padding: 10px;
 }
-
-
-/* About */
-#about{
-    padding: 100px 0;
+.social-icons {
+    display: flex;
+    justify-content: center;
 }
-
-#about h2{
-    text-align: center;
-}
-
-#about p{
-    width: 540px;
-    margin: 20px auto;
-}
-
-/* Contact */
-#contact{
-    text-align: center;
-    margin-bottom: 70px;
-}
-
-#contact form{
-    margin: 20px auto;
-}
-
-#contact input, #contact textarea{
-    margin-top: 15px;
-    outline: none;
-    padding: 5px;
-}
-
-#contact input{
-    width: 300px;
-    border: none;
-    border-bottom: 1px solid gray;
-}
-
-
-/*Footer*/
-#footer{
-    text-align: center;
-    padding: 40px 0;
-    background-color: rgb(175, 173, 173);
-}
-
-#footer a{
+.social-icons a{
     text-decoration: none;
     padding: 20px;
     color: black;
-    font-size: 30px;
-}
-
-#footer .fa{
+    font-size: 20px;
     margin-top: 30px;
-    margin-left: 50px;
 }
 
+
+/*Projects*/
+#projects{
+    position: relative;
+    margin: 250px 0 90px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: inline-block;
+    width: 400px;
+    margin: 20px;
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.5), 
+                -1px -1px 3px rgba(0,0,0,0.5);
+  }
+  
+  .card img{ 
+    margin: 20px 50px;
+    width: 300px;
+    height: 250px;
+  }
+  
+  .card h2,p{
+    text-align: center;
+    padding: 10px;
+  }
+
+.card a {
+    color: black;
+}
+
+/* Contact */
+#contact {
+    text-align: center;
+    padding: 50px 0;
+    background-color: rgb(209, 206, 206);
+}
+
+/* Footer */
+#footer{
+    background-color: rgb(48, 47, 47);
+}
+#footer .social-icons {
+    display: flex;
+    justify-content: center;
+}
+#footer a, #footer p {
+    color: whitesmoke;
+}
+#footer a {
+    text-decoration: none;
+    margin: 70px 20px 50px;
+    padding: 10px 15px;
+    font-size: 20px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+#footer a:hover {
+    background-color: royalblue;
+}
 #footer p{
-    margin-top: 20px;
+    padding-bottom: 70px;
 }
