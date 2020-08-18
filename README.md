@@ -7,6 +7,18 @@ This project has been created to teach girls/ women to make a portfolio website 
 3. Cover/ Landing page. For reference check: https://colorlib.com/wp/cat/portfolio/ 
 
 ## Resources:
+* Font
+
+```
+<link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+```
+
+```
+body {
+    font-family: 'Amiri', serif;
+}
+```
+
 * Fontawesome icons 
 
 ``` 

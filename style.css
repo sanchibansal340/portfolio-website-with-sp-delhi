@@ -5,6 +5,10 @@
     scroll-behavior: smooth;
 }
 
+body {
+    font-family: 'Amiri', serif;
+}
+
 .header{
     position: fixed;
     width: 100%;
