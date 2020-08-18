@@ -4,6 +4,7 @@ This project has been created to teach girls/ women to make a portfolio website 
 ## What needs to be added?
 1. Responsiveness, either using media queries in CSS or Bootstrap.
 2. Animations to make your website more enganging.
+3. Cover/ Landing page. For reference check: https://colorlib.com/wp/cat/portfolio/ 
 
 ## Resources:
 * Fontawesome icons 
